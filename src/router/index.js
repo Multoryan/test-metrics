@@ -21,7 +21,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: 'https://multoryan.github.io/test-metrics',
+  base: process.env.BASE_URL,
   routes
 })
 
